@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherFragment"
+    android:background="#c1dfd5">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <Button
+            android:id="@+id/getPortfolio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Realtime Information"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <NumberPicker
+            android:id="@+id/NumberPicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/NumberPicker"></WebView>
+
+</RelativeLayout>
